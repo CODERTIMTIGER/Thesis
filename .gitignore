@@ -1,0 +1,72 @@
+# MATLAB specific
+*.asv
+*.m~
+*.autosave
+
+# Data files
+data/train/
+data/val/
+data/test/
+data/annotations/*.mat
+data/annotations/*.json
+*.jpg
+*.png
+*.tif
+*.tiff
+
+# Model checkpoints and results
+models/checkpoints/*.mat
+models/pretrained/*.mat
+results/visualizations/*.png
+results/visualizations/*.jpg
+results/metrics/*.mat
+results/metrics/*.json
+results/detections/
+
+# MATLAB temporary files
+slprj/
+*.slxc
+
+# OS specific
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# IDE
+.vscode/
+.idea/
+*.code-workspace
+
+# Large files
+*.zip
+*.tar
+*.tar.gz
+*.rar
+
+# Compiled MEX files
+*.mexa64
+*.mexw64
+*.mexmaci64
+
+# Cache
+cache/
+temp/
+tmp/
+
+# Logs
+*.log
+logs/
+
+# Jupyter notebooks (if any)
+.ipynb_checkpoints/
+*.ipynb
+
+# Python (if mixed with Python code)
+__pycache__/
+*.py[cod]
+*.so
+.Python
+env/
+venv/
